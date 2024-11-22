@@ -40,7 +40,7 @@ struct HomeView: View {
                         .frame(width: 280, height: 280)
                         .clipShape(Circle())
                 
-                    Text("You Save 1 Million Carbons Today !").bold()
+                    Text("You've Saved 1 Million Carbons Today !").bold()
                         .font(.system(size: 32))
                         .multilineTextAlignment(.center)
                     
@@ -61,7 +61,7 @@ struct HomeView: View {
                                         .font(.title)
                                 }
                                 HStack{
-                                    Text("100 / 10000 Steps")
+                                    Text("100 / 10000 steps")
                                         .font(.system(size: 20))
                                         .fontWeight(.light)
                                         .foregroundColor(.white)
@@ -91,7 +91,7 @@ struct HomeView: View {
                                         .font(.system(size: 25))
                                         .foregroundColor(.white)
                                     
-                                    Text("Challenges").bold()
+                                    Text("Challenge").bold()
                                         .foregroundColor(.white)
                                         .font(.title)
                                 }

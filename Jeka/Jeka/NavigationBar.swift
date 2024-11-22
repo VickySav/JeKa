@@ -46,7 +46,7 @@ struct NavigationBar: View {
                             Image(systemName: "house.fill")
                             Text("Home")
                         }
-                    Text("Stats Screen")
+                        Text("Rewards")
                         .tabItem {
                             Image(systemName: "cart.fill")
                             Text("Rewards")
